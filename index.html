@@ -3,72 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
 
     </header>
-    <div class="container-fluid">
-        <div class="row d.flex justify-content-center m-5">
-            <div class="col-3">
-                <img src="./img/banho-tosa.jpg" class="img-fluid" alt="">
+    <main>
+        <section class="imagens">
+            <figure>
+                <img src="./img/banho-tosa.jpg" class="shadow" alt="">
+                <figcaption>Banho e tosa</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/vacina-cachorro.jpg" class="shadow" alt="">
+                <figcaption>Pet care</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/adestramento.jpg" class="shadow" alt="">
+                <figcaption>Adestramento</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/hotel-para-cachorros.jpg" class="shadow" alt="">
+                <figcaption>Hotel resort</figcaption>
+            </figure>
+        </section>
+        <section class="bemvindo shadow">
+            <h1 class="textshadow">Seja bem-vindo ao petshop!</h1>
+        </section>
+        <section class="cliente">
+            <div class="WHOLETTHEDOGSOUT">
+                <h2>Relação com o cliente</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sapiente, aliquam sint, temporibus maiores dolores repellendus consequatur earum soluta, quam qui quas excepturi tenetur ipsam dolorem. Architecto explicabo molestias consequatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut accusamus, incidunt, ipsa, sunt ipsam exercitationem iure voluptatibus qui quas minima nihil eligendi doloribus excepturi nisi quam. Amet, eum impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat, mollitia impedit accusamus distinctio esse temporibus ratione nulla quis nostrum quibusdam velit quasi a aperiam ullam blanditiis et in magni? lorem</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis officiis accusantium, similique voluptas alias sed, non illum molestias distinctio saepe incidunt libero eum veritatis veniam impedit molestiae ad recusandae. Itaque!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sit mollitia eveniet totam, numquam aperiam quis alias minima excepturi repudiandae voluptatem ratione ea aliquid harum aut soluta recusandae facere placeat?</p>
             </div>
-            <div class="col-3">
-                <img src="./img/vacina-cachorro.jpg" class="img-fluid" alt="">
+            <div class="WOOF-WOOF-WOOFWOOF">
+                <img src="./img/rottweiller.jpg" alt="">
             </div>
-            <div class="col-3">
-                <img src="./img/adestramento.jpg" class="img-fluid" alt="">
+        </section>
+        <section class="delivery shadow">
+            <div>
+                <img src="./img/banner.jpg" style="height: 100%;" alt="">
             </div>
-            <div class="col-3">
-                <img src="./img/hotel-para-cachorros.jpg" class="img-fluid" alt="">
+            <div>
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; color: #fff;" class="textshadow">
+                    <h2>Atendimento delivery</h2>
+                    <h1>0800 555 3232</h1>
+                </div>
             </div>
-        </div>
-        <div class="row text-center py-4" style="background-color: #ccc;">
-            <h3>SEJA BEM-VINDO AO PETSHOP!</h3>
-        </div>
-        <div class="row m-5">
-            <div class="col-8">
-                <h5>Relacão com o CLiente</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam animi dolorum ex molestiae quae quis. Odio possimus mollitia ut aspernatur quod iure, dolorum, ratione repudiandae ipsum eveniet aliquam, earum itaque?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus doloremque voluptatem vitae? Harum ab nihil nostrum reprehenderit ducimus quo aliquam at architecto, sunt similique velit officiis nulla dignissimos, soluta possimus!</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni fugit repellendus eaque dolores tenetur numquam quas aliquid quos nihil pariatur? Saepe sapiente minus aut repudiandae quas aliquid, quae architecto earum!</p>
+        </section>
+        <section class="contato shadow">
+            <div>
+                <form action="submit">
+                    <input type="text" placeholder="Nome" name="" id="">
+                    <input type="email" placeholder="E-mail" name="" id="">
+                    <textarea name="" placeholder="Mensagem" id=""></textarea>
+                    <button type="reset">Enviar</button>
+                </form>
             </div>
-            <div class="col-4">
-                <img width="100%" src="./img/rottweiller.jpg" alt="">
+            <div>
+                <div>
+                    <img src="./icons/outlined/phone-icon.png" alt="">
+                    <h3>(48) 1234-5678</h3>
+                </div>
+                <div>
+                    <img src="./icons/outlined/whatsapp-icon.png" alt="">
+                    <h3>(48) 99876-5432</h3>
+                </div>
+                <div>
+                    <img src="./icons/outlined/local-icon.png" alt="">
+                    <h3>Rua Marechal Deodoro, 55 - Centro - Florianópolis</h3>
+                </div>
+                <div>
+                    <img src="./icons/outlined/gmail-icon.png" alt="">
+                    <h3>veterinaria.naria@gmail.com</h3>
+                </div>
+                <div class="big-icons">
+                    <img src="./icons/outlined/facebook-icon.png" onmouseover="outlined_to_full(this)" onmouseleave="full_to_outlined(this)" alt="">
+                    <img src="./icons/outlined/instagram-icon.png" onmouseover="outlined_to_full(this)" onmouseleave="full_to_outlined(this)" alt="">
+                    <img src="./icons/outlined/linkedin-icon.png" onmouseover="outlined_to_full(this)" onmouseleave="full_to_outlined(this)" alt="">
+                </div>
             </div>
-        </div>
-        <div class="row m-5" style="background-color: #abd537;">
-            <div class="col-6">
-                <img width="100%" src="./img/banner.jpg" alt="">
-            </div>
-            <div class="col-6 d-flex flex-column align-items-center justify-content-center">
-                <h4>Atendimento delivery</h4>
-                <h3>0800 555 3232</h3>
-            </div>
-        </div>
-    </div>
+        </section>
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d7071.6743024227435!2d-48.5539699!3d-27.598578!3m2!1i1024!2i768!4f13.1!2m1!1sRua%20Marechal%20Deodoro%2055%20Centro%20Florian%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1773127037787!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="direitos">
+            &copy; Pedro Pires - Todos os direitos reservados
+        </section>
+    </main>
     <footer>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-center gap-4 py-4" style="background-color: #444; color: #eee;">
-                <div class="row text-center">
-                    <h4>Fale conosco</h4>
-                </div>
-                <div class="col-4">
-                    <form action="submit" class="d-flex flex-column gap-2">
-                        <input type="text" placeholder="Nome" name="" id="">
-                        <input type="email" placeholder="E-mail" name="" id="">
-                        <textarea name="" placeholder="Mensagem" style="height: 100px;" id=""></textarea>
-                        <button type="submit" style="max-width: fit-content; align-self: flex-end;">Enviar agora</button>
-                    </form>
-                </div>
-                <div class="col-4">
-sdgs
-                </div>
-            </div>
-        </div>
+
     </footer>
 </body>
-<script src="./js/bootstrap.js"></script>
+<script src="./script.js"></script>
 </html>
