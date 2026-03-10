@@ -1,0 +1,22 @@
+então... como eu tinha dito se eu pudesse fazer sem o bootstrap eu faria, como vc tinha me dito n tem vantagem nenhuma e meio q realmente não tem motivo (além de preferencia) :/ mas sla, eu tava com vontade de fazer sem.
+
+fiz meio que correndo pq eu pensei que a entrega tava pra meia noite do dia 10 ou as 19h do dia 10, mas tava pra meia noite do dia 9 :/
+
+enfim, por eu ter feito correndo n ficou do jeito que eu queria, e não, não ta IGUAL as imagens de referencia, eu tomei a liberdade de mudar algumas (bastante '~') coisa no fim, espero que tomar uma ou outra decisão de design diferente da referência não impacte na avaliação da minha atividade, mas se impactar, pelo menos deixa saber que foi por isso pra eu não fazer dnv :)
+
+
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░
+░░░░░░░░▄▀░░░░░░░░░░░░▄░░░░░░░▀▄░░░░░░░
+░░░░░░░░█░░▄░░░░▄░░░░░░░░░░░░░░█░░░░░░░
+░░░░░░░░█░░░░░░░░░░░░▄█▄▄░░▄░░░█░▄▄▄░░░
+░▄▄▄▄▄░░█░░░░░░▀░░░░▀█░░▀▄░░░░░█▀▀░██░░
+░██▄▀██▄█░░░▄░░░░░░░██░░░░▀▀▀▀▀░░░░██░░
+░░▀██▄▀██░░░░░░░░▀░██▀░░░░░░░░░░░░░▀██░
+░░░░▀████░▀░░░░▄░░░██░░░▄█░░░░▄░▄█░░██░
+░░░░░░░▀█░░░░▄░░░░░██░░░░▄░░░▄░░▄░░░██░
+░░░░░░░▄█▄░░░░░░░░░░░▀▄░░▀▀▀▀▀▀▀▀░░▄▀░░
+░░░░░░█▀▀█████████▀▀▀▀████████████▀░░░░
+░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
